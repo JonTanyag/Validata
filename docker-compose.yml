@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  validata.api:
+    image: ${DOCKER_REGISTRY-}validata
+    build:
+      context: .
+      dockerfile: Validata.API/Dockerfile

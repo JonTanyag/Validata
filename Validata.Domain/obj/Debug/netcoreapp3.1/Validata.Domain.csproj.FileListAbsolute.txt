@@ -1,0 +1,10 @@
+/Users/jon/Projects/Validata/Validata.Domain/bin/Debug/netcoreapp3.1/Validata.Domain.deps.json
+/Users/jon/Projects/Validata/Validata.Domain/bin/Debug/netcoreapp3.1/Validata.Domain.dll
+/Users/jon/Projects/Validata/Validata.Domain/bin/Debug/netcoreapp3.1/Validata.Domain.pdb
+/Users/jon/Projects/Validata/Validata.Domain/obj/Debug/netcoreapp3.1/Validata.Domain.csproj.AssemblyReference.cache
+/Users/jon/Projects/Validata/Validata.Domain/obj/Debug/netcoreapp3.1/Validata.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jon/Projects/Validata/Validata.Domain/obj/Debug/netcoreapp3.1/Validata.Domain.AssemblyInfoInputs.cache
+/Users/jon/Projects/Validata/Validata.Domain/obj/Debug/netcoreapp3.1/Validata.Domain.AssemblyInfo.cs
+/Users/jon/Projects/Validata/Validata.Domain/obj/Debug/netcoreapp3.1/Validata.Domain.csproj.CoreCompileInputs.cache
+/Users/jon/Projects/Validata/Validata.Domain/obj/Debug/netcoreapp3.1/Validata.Domain.dll
+/Users/jon/Projects/Validata/Validata.Domain/obj/Debug/netcoreapp3.1/Validata.Domain.pdb

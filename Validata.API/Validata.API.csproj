@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <DockerComposeProjectPath>../docker-compose.dcproj</DockerComposeProjectPath>
+    <UserSecretsId>eb0fb6d7-d2be-4a2b-b538-f9ddd5a9da5f</UserSecretsId>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <None Remove="Swashbuckle.AspNetCore" />
+    <None Remove="Swashbuckle.AspNetCore.Annotations" />
+    <None Remove="Swashbuckle.AspNetCore.Filters" />
+    <None Remove="Swashbuckle.AspNetCore.Newtonsoft" />
+    <None Remove="MediatR.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="MediatR" />
+    <None Remove="Application\" />
+    <None Remove="Application\CommandHandlers\" />
+    <None Remove="Application\QueryHandlers\" />
+    <None Remove="Autofac.Extensions.DependencyInjection" />
+    <None Remove="AutofacModules\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.2.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="7.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.2.2" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Application\" />
+    <Folder Include="Application\CommandHandlers\" />
+    <Folder Include="Application\QueryHandlers\" />
+    <Folder Include="AutofacModules\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Validata.Infrastructure\Validata.Infrastructure.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

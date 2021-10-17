@@ -1,0 +1,52 @@
+﻿<Properties StartupConfiguration="{DB7DF23A-3791-4B5C-A671-747F9C48014C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="docker-compose.yml">
+    <Files>
+      <File FileName="Validata.API/Startup.cs" Line="42" Column="59" />
+      <File FileName="Validata.API/IoC.cs" Line="12" Column="1" />
+      <File FileName="Validata.API/AutofacModules/PersistenceModule.cs" Line="16" Column="1" />
+      <File FileName="Validata.API/Program.cs" Line="16" Column="1" />
+      <File FileName="Validata.API/Application/CommandHandlers/CustomerCommandHandler.cs" Line="1" Column="1" />
+      <File FileName="Validata.API/Controllers/CustomerController.cs" Line="40" Column="1" />
+      <File FileName="Validata.Infrastructure/ValidataDbContext.cs" Line="11" Column="1" />
+      <File FileName="Validata.Domain/Repositories/ICustomerManagerRepository.cs" Line="1" Column="1" />
+      <File FileName="Validata.Domain/Repositories/IRepository.cs" Line="1" Column="1" />
+      <File FileName="Validata.Domain/Repositories/IUnitOfWork.cs" Line="1" Column="1" />
+      <File FileName="Validata.Domain/Repositories/IOrderRepository.cs" Line="1" Column="1" />
+      <File FileName="Validata.Infrastructure/Command/AddCustomerCommand.cs" Line="1" Column="1" />
+      <File FileName="Validata.Infrastructure/Repositories/CustomerManagerRepository.cs" Line="13" Column="83" />
+      <File FileName="Validata.Infrastructure/Repositories/CustomerRepository.cs" Line="10" Column="1" />
+      <File FileName="Validata.Infrastructure/Repositories/Repository.cs" Line="20" Column="1" />
+      <File FileName="Validata.Infrastructure/Repositories/UnitOfWork.cs" Line="15" Column="32" />
+      <File FileName="Validata.API/Properties/launchSettings.json" Line="23" Column="39" />
+      <File FileName="Validata.API/Dockerfile" Line="1" Column="1" />
+      <File FileName="docker-compose.yml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Validata" expanded="True">
+            <Node name="docker-compose" expanded="True">
+              <Node name="docker-compose.yml" selected="True" />
+            </Node>
+            <Node name="Validata.Infrastructure" expanded="True">
+              <Node name="Repositories" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/jon/Projects/Validata/Validata.API/Application/CommandHandlers/CustomerCommandHandler.cs" relfile="Validata.API/Application/CommandHandlers/CustomerCommandHandler.cs" line="24" column="1" />
+      <Breakpoint file="/Users/jon/Projects/Validata/Validata.API/Application/CommandHandlers/CustomerCommandHandler.cs" relfile="Validata.API/Application/CommandHandlers/CustomerCommandHandler.cs" line="17" column="1" />
+      <Breakpoint file="/Users/jon/Projects/Validata/Validata.API/Controllers/CustomerController.cs" relfile="Validata.API/Controllers/CustomerController.cs" line="40" column="1" />
+      <Breakpoint file="/Users/jon/Projects/Validata/Validata.API/Controllers/CustomerController.cs" relfile="Validata.API/Controllers/CustomerController.cs" line="46" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Validata.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
