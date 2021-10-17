@@ -15,10 +15,8 @@
     <None Remove="MediatR.Extensions.Microsoft.DependencyInjection" />
     <None Remove="MediatR" />
     <None Remove="Application\" />
-    <None Remove="Application\CommandHandlers\" />
     <None Remove="Application\QueryHandlers\" />
     <None Remove="Autofac.Extensions.DependencyInjection" />
-    <None Remove="AutofacModules\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.2" />
@@ -31,11 +29,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Application\" />
-    <Folder Include="Application\CommandHandlers\" />
     <Folder Include="Application\QueryHandlers\" />
-    <Folder Include="AutofacModules\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Validata.Domain\Validata.Domain.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
     <ProjectReference Include="..\Validata.Infrastructure\Validata.Infrastructure.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>

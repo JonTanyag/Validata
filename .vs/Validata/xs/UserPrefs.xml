@@ -28,9 +28,6 @@
             <Node name="docker-compose" expanded="True">
               <Node name="docker-compose.yml" selected="True" />
             </Node>
-            <Node name="Validata.Infrastructure" expanded="True">
-              <Node name="Repositories" expanded="True" />
-            </Node>
           </Node>
         </State>
       </Pad>

@@ -1,0 +1,16 @@
+services:
+  validata.api:
+    build:
+      context: /Users/jon/Projects/Validata
+      dockerfile: Validata.API/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: validata
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - /Users/jon/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/jon/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

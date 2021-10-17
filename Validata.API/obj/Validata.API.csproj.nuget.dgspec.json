@@ -26,6 +26,9 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+              "/Users/jon/Projects/Validata/Validata.Domain/Validata.Domain.csproj": {
+                "projectPath": "/Users/jon/Projects/Validata/Validata.Domain/Validata.Domain.csproj"
+              },
               "/Users/jon/Projects/Validata/Validata.Infrastructure/Validata.Infrastructure.csproj": {
                 "projectPath": "/Users/jon/Projects/Validata/Validata.Infrastructure/Validata.Infrastructure.csproj"
               }
