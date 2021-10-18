@@ -5,7 +5,11 @@ namespace Validata.Domain.Domain
 {
     public partial class Customer
     {
-        public Customer(string firstName, string lastName, string address, string postalCode)
+        public Customer()
+        {
+        }
+
+        private Customer(string firstName, string lastName, string address, string postalCode)
         {
             Id = Guid.NewGuid();
             FirstName = firstName;
@@ -23,12 +27,12 @@ namespace Validata.Domain.Domain
 
         public virtual ICollection<Order> Orders { get; private set; }
 
-        public static Customer Create(string firstName, string lastName, string address, string postalCode)
+        public Customer Create(string firstName, string lastName, string address, string postalCode)
         {
             return new Customer(firstName, lastName, address, postalCode);
         }
 
-        public void ChangeDetails(string firstName, string lastName, string address, string postalCode)
+        public Customer ChangeDetails(string firstName, string lastName, string address, string postalCode)
         {
             FirstName = firstName;
             LastName = lastName;

@@ -1,10 +1,20 @@
 ﻿<Properties StartupConfiguration="{28159510-1A04-4FBF-9734-5C1FB43BE171}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Validata.API/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Validata.Domain/Domain/Item.cs">
     <Files>
-      <File FileName="Validata.API/Startup.cs" Line="42" Column="104" />
-      <File FileName="Validata.Infrastructure/ValidataDbContext.cs" Line="27" Column="94" />
-      <File FileName="Validata.Infrastructure/appsettings.json" Line="3" Column="117" />
-      <File FileName="Validata.API/appsettings.json" Line="3" Column="118" />
+      <File FileName="Validata.API/Startup.cs" Line="52" Column="1" />
+      <File FileName="Validata.API/Application/CommandHandlers/CustomerCommandHandler.cs" Line="44" Column="48" />
+      <File FileName="Validata.Domain/Domain/Customer.cs" Line="35" Column="20" />
+      <File FileName="Validata.Domain/Domain/CustomerManager.Customer.cs" Line="13" Column="12" />
+      <File FileName="Validata.Domain/Domain/Order.cs" Line="39" Column="42" />
+      <File FileName="Validata.API/Application/CommandHandlers/OrderCommandHandler.cs" Line="43" Column="20" />
+      <File FileName="Validata.API/Controllers/OrderController.cs" Line="38" Column="41" />
+      <File FileName="Validata.API/Controllers/CustomerController.cs" Line="16" Column="9" />
+      <File FileName="Validata.Infrastructure/Command/UpdateOrderCommand.cs" Line="8" Column="34" />
+      <File FileName="Validata.Infrastructure/Command/UpdateCustomerCommand.cs" Line="8" Column="37" />
+      <File FileName="Validata.Domain/Repositories/IRepository.cs" Line="14" Column="20" />
+      <File FileName="Validata.Infrastructure/Repositories/Repository.cs" Line="1" Column="1" />
+      <File FileName="Validata.Infrastructure/Command/AddOrderCommand.cs" Line="19" Column="1" />
+      <File FileName="Validata.Domain/Domain/Item.cs" Line="17" Column="11" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,10 +25,17 @@
                 <Node name="CommandHandlers" expanded="True" />
               </Node>
               <Node name="Controllers" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
             </Node>
-            <Node name="Validata.Domain" expanded="True" />
-            <Node name="Validata.Infrastructure" expanded="True" />
+            <Node name="Validata.Domain" expanded="True">
+              <Node name="Domain" expanded="True">
+                <Node name="Item.cs" selected="True" />
+              </Node>
+              <Node name="Repositories" expanded="True" />
+            </Node>
+            <Node name="Validata.Infrastructure" expanded="True">
+              <Node name="Command" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -29,9 +46,7 @@
   <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/jon/Projects/Validata/Validata.API/Application/CommandHandlers/CustomerCommandHandler.cs" relfile="Validata.API/Application/CommandHandlers/CustomerCommandHandler.cs" line="24" column="1" />
-      <Breakpoint file="/Users/jon/Projects/Validata/Validata.API/Application/CommandHandlers/CustomerCommandHandler.cs" relfile="Validata.API/Application/CommandHandlers/CustomerCommandHandler.cs" line="17" column="1" />
-      <Breakpoint file="/Users/jon/Projects/Validata/Validata.Infrastructure/ValidataDbContext.cs" relfile="Validata.Infrastructure/ValidataDbContext.cs" line="12" column="1" />
+      <Breakpoint file="/Users/jon/Projects/Validata/Validata.Domain/Domain/Customer.cs" relfile="Validata.Domain/Domain/Customer.cs" line="31" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

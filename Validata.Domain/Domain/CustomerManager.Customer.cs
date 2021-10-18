@@ -7,9 +7,9 @@ namespace Validata.Domain.Domain
         {
         }
 
-        public Customer CreateCustomer(string firstName, string lastName, string address, string postalCode)
-        {
-            return Customer.Create(firstName, lastName, address, postalCode);
-        }
+        //public Customer CreateCustomer(string firstName, string lastName, string address, string postalCode)
+        //{
+        //    return Customer.Create(firstName, lastName, address, postalCode);
+        //}
     }
 }

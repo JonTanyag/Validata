@@ -35,23 +35,20 @@ namespace Validata.API
         {
             services.AddControllers();
 
-
-
-
-            //services.AddMediatR(typeof(CustomerCommandHandler).Assembly);
-            services.AddDbContext<ValidataDbContext>(o => o.UseSqlServer("Server=localhost,1433\\Catalog=Validata;Database=Validata;User=sa;Password=m$sQlServ3rh4ck");
+            services.AddDbContext<ValidataDbContext>(o => o.UseSqlServer("Server=localhost,1433\\Catalog=Validata;Database=Validata;User=sa;Password=m$sQlServ3rh4ck"));
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<ICustomerRepository, CustomerRepository>();
             services.AddScoped<ICustomerManagerRepository, CustomerManagerRepository>();
-
+            services.AddScoped<IOrderRepository, OrderRepository>();
 
 
             services.AddMediatR(typeof(CustomerRepository).Assembly);
             services.AddMediatR(typeof(CustomerManagerRepository).Assembly);
+            services.AddMediatR(typeof(OrderRepository).Assembly);
             services.AddMediatR(typeof(CustomerCommandHandler).Assembly);
-            services.AddSwaggerGen();
+            services.AddMediatR(typeof(OrderCommandHandler).Assembly);
 
-            //RegisterAutofacServices(services);
+            services.AddSwaggerGen();
 
         }
 

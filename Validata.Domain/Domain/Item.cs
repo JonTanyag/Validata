@@ -13,5 +13,11 @@ namespace Validata.Domain.Domain
         public Guid Id { get; set; }
         public Product Products { get; set; }
         public int Quantity { get; set; }
+        public bool IsDeleted { get; set; }
+
+        public void Delete(Guid id)
+        {
+            IsDeleted = true;
+        }
     }
 }
