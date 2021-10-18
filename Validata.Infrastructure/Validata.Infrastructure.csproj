@@ -13,6 +13,7 @@
     <None Remove="MediatR" />
     <None Remove="MediatR.Extensions.Microsoft.DependencyInjection" />
     <None Remove="Docker.DotNet" />
+    <None Remove="Query\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.11" />
@@ -31,5 +32,6 @@
   <ItemGroup>
     <Folder Include="Repositories\" />
     <Folder Include="Command\" />
+    <Folder Include="Query\" />
   </ItemGroup>
 </Project>
