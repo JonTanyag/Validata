@@ -14,7 +14,7 @@
         "outputPath": "/Users/jon/Projects/Validata/Validata.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jon/.config/NuGet/NuGet.Config"
+          "/Users/jon/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -106,7 +106,7 @@
         "outputPath": "/Users/jon/Projects/Validata/Validata.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jon/.config/NuGet/NuGet.Config"
+          "/Users/jon/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -158,7 +158,7 @@
         "outputPath": "/Users/jon/Projects/Validata/Validata.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jon/.config/NuGet/NuGet.Config"
+          "/Users/jon/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

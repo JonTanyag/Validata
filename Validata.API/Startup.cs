@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -38,7 +39,7 @@ namespace Validata.API
 
 
             //services.AddMediatR(typeof(CustomerCommandHandler).Assembly);
-            services.AddEntityFrameworkSqlServer().AddDbContext<ValidataDbContext>();
+            services.AddDbContext<ValidataDbContext>(o => o.UseSqlServer("Server=localhost,1433\\Catalog=Validata;Database=Validata;User=sa;Password=m$sQlServ3rh4ck");
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<ICustomerRepository, CustomerRepository>();
             services.AddScoped<ICustomerManagerRepository, CustomerManagerRepository>();
