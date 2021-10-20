@@ -38,15 +38,6 @@ namespace Validata.API.Controllers
         [HttpPost]
         public async Task<IActionResult> AddCustomer([FromBody] AddCustomerCommand command)
         {
-            try
-            {
-                await _bus.Send(command);
-            }
-            catch (Exception ex)
-            {
-
-            }
-
             return Ok(await _bus.Send(command));
         }
 

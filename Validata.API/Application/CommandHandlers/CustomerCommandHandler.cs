@@ -23,7 +23,7 @@ namespace Validata.API.Application.CommandHandlers
 
         public async Task<Unit> Handle(AddCustomerCommand command, CancellationToken cancellationToken)
         {
-            var customerManager = _customerManagerRepository.FindFirstAsync(null);
+            //var customerManager = _customerManagerRepository.FindFirstAsync(null);
             var customerEntity = new Customer();
 
 
