@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Validata.Domain.Domain
 {
-    public partial class Customer
+    public class Customer
     {
         public Customer()
         {
@@ -32,7 +32,7 @@ namespace Validata.Domain.Domain
             return new Customer(firstName, lastName, address, postalCode);
         }
 
-        public Customer ChangeDetails(string firstName, string lastName, string address, string postalCode)
+        public void ChangeDetails(string firstName, string lastName, string address, string postalCode)
         {
             FirstName = firstName;
             LastName = lastName;

@@ -13,4 +13,3 @@
 /Users/jon/Projects/Validata/Validata.Infrastructure/obj/Debug/netcoreapp3.1/Validata.Infrastructure.dll
 /Users/jon/Projects/Validata/Validata.Infrastructure/obj/Debug/netcoreapp3.1/Validata.Infrastructure.pdb
 /Users/jon/Projects/Validata/Validata.Infrastructure/obj/Debug/netcoreapp3.1/Validata.Infrastructure.genruntimeconfig.cache
-/Users/jon/Projects/Validata/Validata.Infrastructure/obj/Debug/netcoreapp3.1/Validata.Infrastructure.csproj.CopyComplete

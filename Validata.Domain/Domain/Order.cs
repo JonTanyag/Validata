@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Validata.Domain.Domain
 {
-    public partial class Order
+    public class Order
     {
         public Order(DateTime orderDate, decimal totalPrice)
         {
@@ -23,7 +23,7 @@ namespace Validata.Domain.Domain
         public bool IsDeleted { get; set; }
 
 
-        public virtual ICollection<Item> Items { get; set; }
+        //public virtual ICollection<Item> Items { get; set; }
 
         public Order Create(DateTime orderDate, decimal totalPrice)
         {
@@ -33,16 +33,16 @@ namespace Validata.Domain.Domain
 
         public void AddItems(Item item)
         {
-            Items.Add(item);
+           // Items.Add(item);
         }
 
         public void RemoveItem(Item item)
         {
-            var itemToDelete = Items.FirstOrDefault(i => i.Id == item.Id);
-            if (itemToDelete == null)
-                throw new Exception("Item to delete does not exist.");
+            //var itemToDelete = Items.FirstOrDefault(i => i.Id == item.Id);
+            //if (itemToDelete == null)
+            //    throw new Exception("Item to delete does not exist.");
 
-            itemToDelete.Delete(itemToDelete.Id);
+            //itemToDelete.Delete(itemToDelete.Id);
         }
 
         public void Deleted()

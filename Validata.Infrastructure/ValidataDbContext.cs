@@ -16,11 +16,11 @@ namespace Validata.Infrastructure
 
         public virtual DbSet<Customer> Customers { get; set; }
         public virtual DbSet<Order> Orders { get; set; }
-        public virtual DbSet<Item> Items { get; set; }
-        public virtual DbSet<Product> Products { get; set; }
+        //public virtual DbSet<Item> Items { get; set; }
+        //public virtual DbSet<Product> Products { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder options)
-            => options.UseSqlServer("Server=localhost,1433\\Catalog=Validata;Database=Validata;User=sa;Password=m$sQlServ3rh4ck");
+        //protected override void OnConfiguring(DbContextOptionsBuilder options)
+        //    => options.UseSqlServer("Server=localhost,1433\\Catalog=Validata;Database=Validata;User=sa;Password=m$sQlServ3rh4ck");
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

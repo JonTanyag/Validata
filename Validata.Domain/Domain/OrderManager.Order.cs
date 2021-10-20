@@ -7,9 +7,9 @@ namespace Validata.Domain.Domain
         {
         }
 
-        public Order CreateOrder(DateTime orderDate, decimal totalPrice)
-        {
-            return Order.Create(orderDate, totalPrice);
-        }
+        //public Order CreateOrder(DateTime orderDate, decimal totalPrice)
+        //{
+        //    return Order.Create(orderDate, totalPrice);
+        //}
     }
 }
